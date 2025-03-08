@@ -1,7 +1,7 @@
 from collections import deque
 
 
-class Palos:
+class Pilas:
     def __init__(self):
         self.stack = []
 
@@ -47,14 +47,12 @@ class Colas:
 class Main:
     @staticmethod
     def ejecutar():
-
-        pila = Palos()
+        pila = Pilas()
         for num in [10, 20, 30]:
             pila.push(num)
         pila.recorrer()
         print("Elemento eliminado:", pila.pop())
         print("Elemento en la cima:", pila.peek())
-
 
         cola = Colas()
         for num in [1, 2, 3]:
