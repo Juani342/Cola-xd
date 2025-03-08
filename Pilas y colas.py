@@ -47,7 +47,7 @@ class Colas:
 class Main:
     @staticmethod
     def ejecutar():
-        # Ejemplo con Pilas
+
         pila = Palos()
         for num in [10, 20, 30]:
             pila.push(num)
@@ -55,7 +55,7 @@ class Main:
         print("Elemento eliminado:", pila.pop())
         print("Elemento en la cima:", pila.peek())
 
-        # Ejemplo con Colas
+
         cola = Colas()
         for num in [1, 2, 3]:
             cola.insertar(num)
